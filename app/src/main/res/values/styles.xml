@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="theme_checkbox" parent="@android:style/Widget.Holo.Light.CompoundButton.CheckBox">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="select_checkbox" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/blue</item>
+    </style>
+</resources>

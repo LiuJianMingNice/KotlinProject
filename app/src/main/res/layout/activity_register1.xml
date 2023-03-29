@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="registerViewModel"
+            type="com.example.myapplication.viewmodel.RegisterViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/register_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:text="@string/register_title"
+                android:textColor="@color/black"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:id="@+id/register_email_address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/register_title_tv"/>
+            <LinearLayout
+                android:id="@+id/register_email_address_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/register_email_address_tv">
+
+                <EditText
+                    android:id="@+id/register_email_address_et"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:hint="Enter Email address"
+                    android:theme="@style/select_checkbox" />
+
+                <ImageView
+                    android:id="@+id/register_email_address_iv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_selected" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/register_choose_region_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Region"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/register_email_address_ll"/>
+            <EditText
+                android:id="@+id/register_choose_region_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Choose Region"
+                android:drawableRight="@drawable/ic_collapsed"
+                android:theme="@style/select_checkbox"
+                android:layout_below="@+id/register_choose_region_tv"/>
+
+            <TextView
+                android:id="@+id/register_password_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/register_choose_region_et"/>
+            <com.example.myapplication.customview.PasswordView
+                android:id="@+id/register_password_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:hint="8-20 Charactors"
+                android:textColor="@color/cardview_shadow_start_color"
+                android:theme="@style/select_checkbox"
+                app:useStrikeThrough="true"
+                android:layout_below="@+id/register_password_tv"/>
+
+            <TextView
+                android:id="@+id/register_confirm_password_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm Password"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/register_password_et"/>
+            <com.example.myapplication.customview.PasswordView
+                android:id="@+id/register_confirm_password_pv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:hint="8-20 Charactors"
+                android:theme="@style/select_checkbox"
+                android:textColor="@color/cardview_shadow_start_color"
+                app:useStrikeThrough="true"
+                android:layout_below="@+id/register_confirm_password_tv"/>
+
+            <com.example.myapplication.customview.UnderlineTextView
+                android:id="@+id/register_password_rules_utv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码规则......"
+                android:textColor="#3c78d8"
+                app:underline_color="#3c78d8"
+                app:underline_height="1dp"
+                android:drawableLeft="@drawable/zxl_flashlight_selector"
+                android:layout_below="@+id/register_confirm_password_pv"/>
+
+            <TextView
+                android:id="@+id/register_password_rules_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/register_password_rules_content"
+                android:layout_below="@+id/register_password_rules_utv"/>
+
+            <TextView
+                android:id="@+id/register_verification_code_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/register_password_rules_content_tv"
+                android:text="Verification code" />
+
+            <LinearLayout
+                android:id="@+id/register_enter_code_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/register_verification_code_tv">
+                <EditText
+                    android:id="@+id/register_enter_code_et"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:hint="Enter Code"
+                    android:theme="@style/select_checkbox" />
+                <com.example.myapplication.customview.CountdownButton
+                    android:id="@+id/register_get_verification_code_cb"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="2"
+                    android:enabled="false"
+                    android:background="@drawable/selector_verification_code"
+                    app:countdown_time="12"
+                    app:countdown_time_btn_text="@string/register_get_verification_code"
+                    app:countdown_time_end_text="@string/register_get_verification_code_resend"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/register_get_verification_code_tip_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/register_get_verification_code_tip"
+                android:layout_below="@+id/register_enter_code_ll"/>
+
+            <LinearLayout
+                android:id="@+id/register_agree_privacy_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/register_get_verification_code_tip_tv">
+                <CheckBox
+                    android:id="@+id/register_agree_privacy_cb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/selector_checkbox"
+                    android:theme="@style/select_checkbox" />
+                <TextView
+                    android:id="@+id/register_privacy_content_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_signup_agreeTerms_1"
+                    android:theme="@style/select_checkbox"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/register_sign_up_tv"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/padding_large"
+                android:layout_marginTop="@dimen/padding_large"
+                android:layout_marginEnd="@dimen/padding_large"
+                android:gravity="center"
+                android:background="@drawable/selector_sign_up"
+                android:enabled="false"
+                android:text="Sign up"
+                android:layout_below="@+id/register_agree_privacy_ll"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</layout>

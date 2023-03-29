@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ComposeTest</string>
+    <string name="title_activity_test_nav_controller">TestNavControllerActivity</string>
+    <string name="title_activity_test1">Test1Activity</string>
+</resources>

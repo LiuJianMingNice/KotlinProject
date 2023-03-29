@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/infoFragment">
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.jianshudemo.fragment.ShoeFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_shoe">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/marketFragment"
+        android:name="com.example.jianshudemo.fragment.FavouriteFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_favourite">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/meFragment"
+        android:name="com.example.jianshudemo.fragment.MeFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_me">
+
+    </fragment>
+
+</navigation>

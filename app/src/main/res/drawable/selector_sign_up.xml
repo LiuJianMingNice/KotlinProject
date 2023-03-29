@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shape_dev_save" android:state_enabled="true" />
+    <item android:drawable="@drawable/shape_dev_save_disable" />
+</selector>

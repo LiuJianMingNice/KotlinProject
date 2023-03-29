@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PasswordView">
+        <attr name="useStrikeThrough" format="boolean" />
+        <attr name="visible" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="UnderlineTextView">
+        <attr name="underline_color" format="reference|color" />
+        <attr name="underline_height" format="dimension" />
+        <attr name="android:drawableLeft" />
+    </declare-styleable>
+
+    <declare-styleable name="CountdownButton">
+        <attr name="countdown_time" format="integer" />
+        <attr name="countdown_time_btn_text" format="string" />
+        <attr name="countdown_time_end_text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="RockerView">
+        <attr name="areaBackground" format="color|reference" />
+        <attr name="rockerBackground" format="color|reference" />
+        <attr name="topControl" format="color|reference" />
+        <attr name="bottomControl" format="color|reference" />
+        <attr name="leftControl" format="color|reference" />
+        <attr name="rightControl" format="color|reference" />
+        <attr name="leftTopControl" format="color|reference" />
+        <attr name="rightTopControl" format="color|reference" />
+        <attr name="leftBottomControl" format="color|reference" />
+        <attr name="rightBottomControl" format="color|reference" />
+        <attr name="rockerRadius" format="dimension" />
+        <attr name="isRocker" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ScrollSchedulesView">
+        <attr name="columnTitleTextColor" format="reference|color" />
+        <attr name="rowTitleTextColor" format="reference|color" />
+        <attr name="scheduleLineColor" format="color|reference" />
+        <attr name="columnTitleBackground" format="reference|color" />
+        <attr name="scheduleColor" format="color|reference" />
+        <attr name="dividerColor" format="color|reference" />
+        <attr name="columnTitleTextSize" format="reference|dimension" />
+        <attr name="rowTitleTextSize" format="reference|dimension" />
+        <attr name="spanPercent" format="float" />
+    </declare-styleable>
+
+</resources>
+

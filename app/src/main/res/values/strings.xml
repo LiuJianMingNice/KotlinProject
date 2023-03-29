@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="register_title">Sign Up</string>
+    <string name="register_password_rules_content">Password Legnth must be 8-15 characters,Combination should consist of at least 3 from uppercase letters, lowercase letters, digit, special characters;Special characters include !@$%^&amp;*()_-=[{}]/?.>,\';: The password cannot be the same as the user name or the user name backwards.</string>
+    <string name="register_signup_agreeTerms">I agree to the Terms of Service Use and Privacy Policy</string>
+    <string name="register_signup_agreeTerms_1">I agree to the</string>
+    <string name="register_signup_agreeTerms_2">Terms of Service Use and Privacy Policy</string>
+    <string name="register_get_verification_code">Get Verification Code</string>
+    <string name="register_get_verification_code_resend">Resend</string>
+    <string name="register_get_verification_code_tip">Please check your registered mailbox for the verification code,if you didn\'t receive code,wait for the timer to end and tap Resend</string>
+</resources>

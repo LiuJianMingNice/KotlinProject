@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#3c78d8</color>
+    <color name="textColor">#3f3f3f</color> <!--普通文字-->
+    <color name="textColorInColorView">#ffffff</color> <!--列表选中通道，码流选中文字-->
+    <color name="themeButtonSelect">#3c78d8</color> <!--非渐变色按钮点击的颜色-->
+    <color name="themeButtonDisable">#7F3c78d8</color> <!--非渐变色按钮点击的颜色-->
+    <color name="red">#ff0000</color>
+</resources>

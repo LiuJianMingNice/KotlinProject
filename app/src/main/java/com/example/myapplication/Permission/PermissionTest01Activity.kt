@@ -4,8 +4,10 @@ import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.Settings
 import android.widget.Button
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
@@ -79,6 +81,18 @@ class PermissionTest01Activity : AppCompatActivity() {
                     Toast.makeText(this, "您拒绝了如下电话权限： $deniedList", Toast.LENGTH_SHORT).show()
                 }
             }
+    }
+
+    private fun test() {
+        if(Build.VERSION.SDK_INT >= 23) {
+            if (Settings.canDrawOverlays(this)) {
+//                showFloatView()
+            } else {
+                val intent = Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION)
+                startActivity(intent)
+            }
+        }
+
     }
 
 }

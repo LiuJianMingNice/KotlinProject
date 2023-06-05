@@ -22,7 +22,7 @@ import javax.inject.Singleton
 @InstallIn(ActivityComponent::class)
 class NetworkModule {
 
-    @Singleton
+//    @Singleton
     @Provides
     fun provideOkHttpClient(): OkHttpClient {
         return OkHttpClient.Builder()
@@ -32,7 +32,7 @@ class NetworkModule {
             .build()
     }
 
-    @Singleton
+//    @Singleton
     @Provides
     fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
         return Retrofit.Builder()

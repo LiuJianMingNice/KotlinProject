@@ -10,3 +10,4 @@ rootProject.name = "My Application"
 include ':app'
 include ':composetest'
 include ':jianshudemo'
+include ':flowtest'

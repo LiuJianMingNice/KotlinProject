@@ -1,0 +1,110 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/compose-model-1675148478988.xml" value="2.0" />
+        <entry key="../../../../layout/compose-model-1675153990192.xml" value="1.4332129963898916" />
+        <entry key="../../../../layout/compose-model-1675212413892.xml" value="1.4151624548736461" />
+        <entry key="../../../../layout/compose-model-1675229166886.xml" value="1.4007220216606497" />
+        <entry key="../../../../layout/compose-model-1675298577582.xml" value="2.0" />
+        <entry key="../../../../layout/compose-model-1675318623980.xml" value="0.1" />
+        <entry key="../../../../layout/compose-model-1675320300575.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1675476343180.xml" value="0.9" />
+        <entry key="../../.gradle/caches/transforms-3/8963ad86d99b9e436ac8c62fb15d62ec/transformed/jetified-zxing-lite-2.1.1/res/drawable/zxl_flashlight_selector.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/album_loading_bg.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/drawable/check_drawable1.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/default_area_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/default_rocker_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_1.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_3.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_4.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_5.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_6.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_album.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_bootom_line.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_bottom.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/drawable/ic_bottom_on.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_checkbox_check_dark.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_checkbox_uncheck_dark.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_collapsed.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_done.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/drawable/ic_error.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_left.xml" value="0.18796296296296297" />
+        <entry key="app/src/main/res/drawable/ic_left_on.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_password_disable.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_passwordhide.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_ptz_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_right.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_right_on.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.11822916666666666" />
+        <entry key="app/src/main/res/drawable/ic_selected.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_sound.xml" value="0.15092592592592594" />
+        <entry key="app/src/main/res/drawable/ic_top.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_top_on.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/selector_bottom.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/selector_checkbox.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/selector_left.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/selector_right.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/selector_sign_up.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/selector_top.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/selector_verification_code.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_dev_save.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shape_dev_save_disable.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_browse_album.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.11911231884057971" />
+        <entry key="app/src/main/res/layout/activity_main_media_store_api.xml" value="0.1625" />
+        <entry key="app/src/main/res/layout/activity_media_store.xml" value="0.1625" />
+        <entry key="app/src/main/res/layout/activity_permission_test.xml" value="0.14945652173913043" />
+        <entry key="app/src/main/res/layout/activity_permission_test01.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_play_back_type.xml" value="0.10677083333333333" />
+        <entry key="app/src/main/res/layout/activity_ptzcontrol.xml" value="0.14221014492753623" />
+        <entry key="app/src/main/res/layout/activity_qrcode.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_qrcode_java.xml" value="0.1644021739130435" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_register1.xml" value="0.32819722650231126" />
+        <entry key="app/src/main/res/layout/activity_rocker_view.xml" value="0.13994565217391305" />
+        <entry key="app/src/main/res/layout/activity_scroll_schedules_view_test.xml" value="0.16666666666666666" />
+        <entry key="app/src/main/res/layout/activity_test_data_binding_encapsulation.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_test_databinding_encapsulation.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/layout/activity_test_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/album_image_item.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/layout/fragment_test_data_binding_encapsulation.xml" value="0.1322463768115942" />
+        <entry key="app/src/main/res/layout/fragment_test_databinding_encapsulation.xml" value="0.18385416666666668" />
+        <entry key="app/src/main/res/layout/item_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_persion.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_student.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_teacher.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_playback_type.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/ptz_direction.xml" value="0.1490036231884058" />
+        <entry key="app/src/main/res/layout/ptz_view.xml" value="0.14221014492753623" />
+        <entry key="app/src/main/res/layout/ptz_view_test.xml" value="0.10885416666666667" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="composetest/src/main/res/drawable/ic_add.xml" value="0.24166666666666667" />
+        <entry key="composetest/src/main/res/drawable/ic_face_on.xml" value="0.1" />
+        <entry key="composetest/src/main/res/drawable/ic_figure.xml" value="0.184375" />
+        <entry key="flowtest/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="jianshudemo/src/main/res/drawable/common_btn_bg_blue.xml" value="0.1" />
+        <entry key="jianshudemo/src/main/res/drawable/favourite_rv_item_tv_bg.xml" value="0.1712962962962963" />
+        <entry key="jianshudemo/src/main/res/layout/activity_login.xml" value="0.17889492753623187" />
+        <entry key="jianshudemo/src/main/res/layout/activity_main.xml" value="0.13677536231884058" />
+        <entry key="jianshudemo/src/main/res/layout/favourite_recycler_item.xml" value="0.13697916666666668" />
+        <entry key="jianshudemo/src/main/res/layout/fragment_login.xml" value="0.17074275362318841" />
+        <entry key="jianshudemo/src/main/res/layout/fragment_me.xml" value="0.1" />
+        <entry key="jianshudemo/src/main/res/layout/fragment_register.xml" value="0.1" />
+        <entry key="jianshudemo/src/main/res/layout/fragment_shoe.xml" value="0.13451086956521738" />
+        <entry key="jianshudemo/src/main/res/layout/fragment_welcome.xml" value="0.1" />
+        <entry key="jianshudemo/src/main/res/layout/shoe_recycler_item.xml" value="0.13697916666666668" />
+        <entry key="jianshudemo/src/main/res/layout/test.xml" value="0.1328125" />
+        <entry key="jianshudemo/src/main/res/menu/menu_main.xml" value="0.1265625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
